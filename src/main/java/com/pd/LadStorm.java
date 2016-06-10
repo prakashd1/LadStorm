@@ -26,7 +26,7 @@ public class LadStorm {
 		// config.put("inputFile", args[0]);
 		config.setDebug(false);
 		config.put(Config.TOPOLOGY_MAX_SPOUT_PENDING, 1);
-		config.setNumWorkers(20);
+		config.setNumWorkers(2);
 
 		TopologyBuilder builder = new TopologyBuilder();
 		builder.setSpout("jms-reader-spout", topicSpout);
