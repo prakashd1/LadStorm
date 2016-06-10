@@ -1,12 +1,16 @@
 # LadStorm
 This is Durable Apache storm implementation. One liner description of this program is
+<br/>
 <b>
 "Storm will consume data from topic, and then it will push the data to two database tables"
-</b>
+</b> 
+<br/><br/>
 For every message in topic, one row in the table named "FirstTable" will be added. 
+<br/>
 For every message in topic, two rows by splitting records will be added to table named "SecondTable"
+<br/>
 I have kept every class in com.pd folder (Will modularize later) 
-
+<br/><br/><br/><br/>
 <b>
 Prerequisites<br/>
 1> Java 1.6 or higher<br/>
@@ -16,7 +20,7 @@ Prerequisites<br/>
 5> Any database ( I have used Oracle in this example)<br/> 
 </b>
 <br/><br/>
-Procedure to run below program<br/>
+Procedure to run program<br/>
 
 Download program from the git using command if you have git, or simply download zip.<br/> 
 git pull https://github.com/prakashd1/LadStorm.git<br/>
