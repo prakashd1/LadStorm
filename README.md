@@ -21,7 +21,8 @@ git pull https://github.com/prakashd1/LadStorm.git<br/>
 <br/><br/>
 Run Active MQ and check its admin console by accessing http://localhost:8161/admin
 <br/><br/>
-Check if you have exact port configured in the jms-activemq.xml. I have kept standard broker configuration i.e tcp://localhost:61616 <br/> <br/>
+Check if you have exact port configured in the jms-activemq.xml. <br/>
+I have kept standard broker configuration i.e tcp://localhost:61616 <br/> <br/>
 Check Database confuguration in the hibernate.cfg.xml.  <br/>
 Here also I have kept standard configuration of XE schema with scott/tiger. <br/>
 <br/>
@@ -29,12 +30,13 @@ Now go to base directory of project and Run
 <br/>
 mvn clean install exec:java
 <br/>
-Now we have JMS client listning on port 61616 and storm is consuming data from it. Go to activeMQ console and publish <br/> 
-something to topic "testTopic1". JMS client will consume the topic and send it to the Storm for further processing. 
+We have JMS client listning on port 61616 and storm is consuming data from it.<br/>
+Go to activeMQ console and publish something to topic "testTopic1".<br/> 
+JMS client will consume the topic and send it to the Storm for further processing.<br/> 
 <br/>
-Let me know if you run into any errors.. I will be glad to update it.. 
+Let me know if you run into any errors.. I will be glad to update it.. <br/>
 <br/>
-Addition: I have added JMS publisher so that you dont have to access ActiveMQ admin console every time. 
+Addition: I have added JMS publisher so that you dont have to access ActiveMQ admin console every time.<br/><br/> 
 <br/>
 Its located in com.pd.utils.Publisher. 
 <br/><br/><br/><br/>
