@@ -1,4 +1,6 @@
 # LadStorm
+Master: [![Build Status](https://travis-ci.org/prakashd1/LadStorm.svg?branch=master)](https://travis-ci.org/prakashd1/LadStorm)
+
 This is Durable Apache storm implementation. One liner description of this program is
 <br/>
 <b>
