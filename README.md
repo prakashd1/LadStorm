@@ -13,6 +13,8 @@ For every message in topic, two rows by splitting records will be added to table
 <br/>
 I have kept every class in com.pd folder (Will modularize later) 
 <br/><br/><br/><br/>
+Details can be found in the Github page http://prakashd1.github.io/LadStorm/
+<br/>
 <b>
 Prerequisites<br/>
 1> Java 1.6 or higher<br/>
